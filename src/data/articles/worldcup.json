@@ -1,0 +1,201 @@
+{
+  "id": "worldcup",
+  "title": "2002 월드컵",
+  "category": "스포츠",
+  "tokens": [
+    {
+      "text": "2002",
+      "type": "other",
+      "pos": "Number",
+      "isMasked": false
+    },
+    {
+      "text": "월드컵",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "은",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "한일",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "공동",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "개최",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "로",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "열렸다",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "대한민국",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "4",
+      "type": "other",
+      "pos": "Number",
+      "isMasked": false
+    },
+    {
+      "text": "강",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "에",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "진출",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "하였다",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "붉은",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": "악마",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "의",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "응원",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "유명했다",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "오",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "~",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "필승",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "코리아",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "가",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "응원가",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "였다",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    }
+  ],
+  "totalMasked": 13,
+  "totalTokens": 32
+}

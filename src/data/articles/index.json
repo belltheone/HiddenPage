@@ -1,0 +1,313 @@
+{
+  "totalArticles": 50,
+  "categories": [
+    "역사",
+    "음식",
+    "인물",
+    "과학",
+    "스포츠",
+    "문화"
+  ],
+  "articles": [
+    {
+      "id": "sejong",
+      "title": "세종대왕",
+      "category": "인물",
+      "totalMasked": 19
+    },
+    {
+      "id": "yisunshin",
+      "title": "이순신",
+      "category": "인물",
+      "totalMasked": 18
+    },
+    {
+      "id": "bts",
+      "title": "BTS",
+      "category": "인물",
+      "totalMasked": 21
+    },
+    {
+      "id": "yuna",
+      "title": "김연아",
+      "category": "인물",
+      "totalMasked": 20
+    },
+    {
+      "id": "son",
+      "title": "손흥민",
+      "category": "인물",
+      "totalMasked": 16
+    },
+    {
+      "id": "jungkook",
+      "title": "정국",
+      "category": "인물",
+      "totalMasked": 15
+    },
+    {
+      "id": "newjeans",
+      "title": "뉴진스",
+      "category": "인물",
+      "totalMasked": 19
+    },
+    {
+      "id": "park",
+      "title": "박찬욱",
+      "category": "인물",
+      "totalMasked": 15
+    },
+    {
+      "id": "bong",
+      "title": "봉준호",
+      "category": "인물",
+      "totalMasked": 17
+    },
+    {
+      "id": "yoojae",
+      "title": "유재석",
+      "category": "인물",
+      "totalMasked": 16
+    },
+    {
+      "id": "kimchi",
+      "title": "김치",
+      "category": "음식",
+      "totalMasked": 20
+    },
+    {
+      "id": "bibimbap",
+      "title": "비빔밥",
+      "category": "음식",
+      "totalMasked": 15
+    },
+    {
+      "id": "bulgogi",
+      "title": "불고기",
+      "category": "음식",
+      "totalMasked": 16
+    },
+    {
+      "id": "tteokbokki",
+      "title": "떡볶이",
+      "category": "음식",
+      "totalMasked": 19
+    },
+    {
+      "id": "samgyeopsal",
+      "title": "삼겹살",
+      "category": "음식",
+      "totalMasked": 16
+    },
+    {
+      "id": "chimaek",
+      "title": "치맥",
+      "category": "음식",
+      "totalMasked": 20
+    },
+    {
+      "id": "ramyeon",
+      "title": "라면",
+      "category": "음식",
+      "totalMasked": 19
+    },
+    {
+      "id": "sundae",
+      "title": "순대",
+      "category": "음식",
+      "totalMasked": 17
+    },
+    {
+      "id": "jjigae",
+      "title": "김치찌개",
+      "category": "음식",
+      "totalMasked": 12
+    },
+    {
+      "id": "naengmyeon",
+      "title": "냉면",
+      "category": "음식",
+      "totalMasked": 16
+    },
+    {
+      "id": "hanbok",
+      "title": "한복",
+      "category": "문화",
+      "totalMasked": 16
+    },
+    {
+      "id": "seollal",
+      "title": "설날",
+      "category": "문화",
+      "totalMasked": 13
+    },
+    {
+      "id": "chuseok",
+      "title": "추석",
+      "category": "문화",
+      "totalMasked": 13
+    },
+    {
+      "id": "hangul",
+      "title": "한글",
+      "category": "문화",
+      "totalMasked": 14
+    },
+    {
+      "id": "taekwondo",
+      "title": "태권도",
+      "category": "문화",
+      "totalMasked": 16
+    },
+    {
+      "id": "kpop",
+      "title": "K-POP",
+      "category": "문화",
+      "totalMasked": 17
+    },
+    {
+      "id": "gyeongbokgung",
+      "title": "경복궁",
+      "category": "문화",
+      "totalMasked": 16
+    },
+    {
+      "id": "jeju",
+      "title": "제주도",
+      "category": "문화",
+      "totalMasked": 13
+    },
+    {
+      "id": "busan",
+      "title": "부산",
+      "category": "문화",
+      "totalMasked": 18
+    },
+    {
+      "id": "namsan",
+      "title": "남산타워",
+      "category": "문화",
+      "totalMasked": 14
+    },
+    {
+      "id": "joseon",
+      "title": "조선",
+      "category": "역사",
+      "totalMasked": 12
+    },
+    {
+      "id": "goguryeo",
+      "title": "고구려",
+      "category": "역사",
+      "totalMasked": 15
+    },
+    {
+      "id": "baekje",
+      "title": "백제",
+      "category": "역사",
+      "totalMasked": 14
+    },
+    {
+      "id": "silla",
+      "title": "신라",
+      "category": "역사",
+      "totalMasked": 15
+    },
+    {
+      "id": "goryeo",
+      "title": "고려",
+      "category": "역사",
+      "totalMasked": 7
+    },
+    {
+      "id": "imjin",
+      "title": "임진왜란",
+      "category": "역사",
+      "totalMasked": 13
+    },
+    {
+      "id": "gwangbok",
+      "title": "광복절",
+      "category": "역사",
+      "totalMasked": 13
+    },
+    {
+      "id": "korean_war",
+      "title": "한국전쟁",
+      "category": "역사",
+      "totalMasked": 11
+    },
+    {
+      "id": "democracy",
+      "title": "민주화 운동",
+      "category": "역사",
+      "totalMasked": 16
+    },
+    {
+      "id": "olympics",
+      "title": "서울 올림픽",
+      "category": "역사",
+      "totalMasked": 11
+    },
+    {
+      "id": "samsung",
+      "title": "삼성전자",
+      "category": "과학",
+      "totalMasked": 17
+    },
+    {
+      "id": "hyundai",
+      "title": "현대자동차",
+      "category": "과학",
+      "totalMasked": 15
+    },
+    {
+      "id": "naver",
+      "title": "네이버",
+      "category": "과학",
+      "totalMasked": 18
+    },
+    {
+      "id": "kakao",
+      "title": "카카오",
+      "category": "과학",
+      "totalMasked": 15
+    },
+    {
+      "id": "nuri",
+      "title": "누리호",
+      "category": "과학",
+      "totalMasked": 15
+    },
+    {
+      "id": "worldcup",
+      "title": "2002 월드컵",
+      "category": "스포츠",
+      "totalMasked": 13
+    },
+    {
+      "id": "baseball",
+      "title": "한국 야구",
+      "category": "스포츠",
+      "totalMasked": 17
+    },
+    {
+      "id": "esports",
+      "title": "e스포츠",
+      "category": "스포츠",
+      "totalMasked": 16
+    },
+    {
+      "id": "ssireum",
+      "title": "씨름",
+      "category": "스포츠",
+      "totalMasked": 15
+    },
+    {
+      "id": "archery",
+      "title": "양궁",
+      "category": "스포츠",
+      "totalMasked": 12
+    }
+  ]
+}

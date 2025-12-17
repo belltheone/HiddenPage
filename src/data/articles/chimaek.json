@@ -1,0 +1,285 @@
+{
+  "id": "chimaek",
+  "title": "치맥",
+  "category": "음식",
+  "tokens": [
+    {
+      "text": "치맥",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "은",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "치킨",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "과",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "맥주",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "를",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "함께",
+      "type": "other",
+      "pos": "Adverb",
+      "isMasked": false
+    },
+    {
+      "text": "먹는",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": "것",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "을",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "말",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "한다",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "한국",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "의",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "대표",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "적",
+      "type": "other",
+      "pos": "Suffix",
+      "isMasked": false
+    },
+    {
+      "text": "인",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "음식",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "문화",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "후라이드",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": ",",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "양념",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": ",",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "간장",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "등",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "다양한",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": "치킨",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "있다",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "축구",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "경기",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "나",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "야구",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "경기",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "를",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "보며",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": "먹는",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": "것",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "유행",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    }
+  ],
+  "totalMasked": 20,
+  "totalTokens": 46
+}

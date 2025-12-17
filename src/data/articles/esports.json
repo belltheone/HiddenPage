@@ -1,0 +1,213 @@
+{
+  "id": "esports",
+  "title": "e스포츠",
+  "category": "스포츠",
+  "tokens": [
+    {
+      "text": "e",
+      "type": "other",
+      "pos": "Alpha",
+      "isMasked": false
+    },
+    {
+      "text": "스포츠",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "는",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "전자",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "게임",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "을",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "통한",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "스포츠",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "경기",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "한국",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "은",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "e",
+      "type": "other",
+      "pos": "Alpha",
+      "isMasked": false
+    },
+    {
+      "text": "스포츠",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "강국",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "리그",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "오브",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "레전드",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "와",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "스타크래프트",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "가",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "대표",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "적",
+      "type": "other",
+      "pos": "Suffix",
+      "isMasked": false
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "페이커",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "가",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "유명한",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": "프로게이머",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    }
+  ],
+  "totalMasked": 16,
+  "totalTokens": 34
+}

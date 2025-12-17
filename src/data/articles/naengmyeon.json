@@ -1,0 +1,267 @@
+{
+  "id": "naengmyeon",
+  "title": "냉면",
+  "category": "음식",
+  "tokens": [
+    {
+      "text": "냉면",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "은",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "차가운",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": "국물",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "에",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "면",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "을",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "말",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "아",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "먹는",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": "음식",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "평양",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "냉면",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "과",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "함흥",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "냉면",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "대표",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "적",
+      "type": "other",
+      "pos": "Suffix",
+      "isMasked": false
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "여름철",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "에",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "특히",
+      "type": "other",
+      "pos": "Adverb",
+      "isMasked": false
+    },
+    {
+      "text": "인기",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "가",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "있는",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": "음식",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "식초",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "와",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "겨자",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "를",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "넣어",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": "새",
+      "type": "other",
+      "pos": "Modifier",
+      "isMasked": false
+    },
+    {
+      "text": "콤",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "하",
+      "type": "other",
+      "pos": "Suffix",
+      "isMasked": false
+    },
+    {
+      "text": "게",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "먹는다",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    }
+  ],
+  "totalMasked": 16,
+  "totalTokens": 43
+}

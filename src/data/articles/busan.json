@@ -1,0 +1,219 @@
+{
+  "id": "busan",
+  "title": "부산",
+  "category": "문화",
+  "tokens": [
+    {
+      "text": "부산",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "은",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "대한민국",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "제",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "2",
+      "type": "other",
+      "pos": "Number",
+      "isMasked": false
+    },
+    {
+      "text": "의",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "도시",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이다",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "해운대",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "와",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "광안",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "리",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "해수욕장",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "이",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "유명하다",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "자갈치",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "시장",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "에서",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "신선한",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": "해산물",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "을",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "맛볼",
+      "type": "verb",
+      "pos": "Verb",
+      "isMasked": false
+    },
+    {
+      "text": "수",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "있다",
+      "type": "verb",
+      "pos": "Adjective",
+      "isMasked": false
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    },
+    {
+      "text": "부산",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "국제",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "영화제",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "가",
+      "type": "particle",
+      "pos": "Josa",
+      "isMasked": false
+    },
+    {
+      "text": "매년",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": "열",
+      "type": "other",
+      "pos": "Modifier",
+      "isMasked": false
+    },
+    {
+      "text": "린다",
+      "type": "noun",
+      "pos": "Noun",
+      "isMasked": true
+    },
+    {
+      "text": ".",
+      "type": "punctuation",
+      "pos": "Punctuation",
+      "isMasked": false
+    }
+  ],
+  "totalMasked": 18,
+  "totalTokens": 35
+}

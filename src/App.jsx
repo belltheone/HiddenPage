@@ -6,7 +6,7 @@ import GameBoard from './components/GameBoard';
 import InputBar from './components/InputBar';
 import ResultScreen from './components/ResultScreen';
 import StatsModal from './components/StatsModal';
-import { getRandomArticle } from './data/sampleArticles';
+import { getRandomArticle, formatArticleForGame } from './data/articleLoader';
 
 /**
  * 히든페이지 메인 앱 컴포넌트
@@ -33,7 +33,7 @@ function App() {
 
     // 새 게임 시작 (랜덤 기사)
     const handlePlayAgain = () => {
-        const randomArticle = getRandomArticle();
+        const randomArticle = formatArticleForGame(getRandomArticle());
         initGame(randomArticle);
         closeResult();
     };

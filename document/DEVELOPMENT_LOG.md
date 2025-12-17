@@ -2,77 +2,62 @@
 
 ## 📅 개발 일지
 
-### 2025-12-17: UI 수정 및 폰트 통일
+### 2025-12-17: 실제 콘텐츠 연동 (50개 문서)
 
 #### 변경 사항
 
-**게임방법 UI 개선**
-- 팝업(HelpModal)에서 상단 고정 표시(GameGuide)로 변경
-- 게임 영역 상단에 항상 표시되어 사용자가 쉽게 확인 가능
+**형태소 분석 시스템**
+- Python + KoNLPy (Okt) 기반 형태소 분석 스크립트 작성
+- 50개 문서 (6개 카테고리) JSON 생성
 
-**폰트 통일**
-- 모든 폰트를 Pretendard로 통일
-- CSS 변수 `--font-main` 사용
+**카테고리 구성**
+- 인물: 세종대왕, 이순신, BTS, 김연아, 손흥민 등 (10개)
+- 음식: 김치, 비빔밥, 불고기, 떡볶이 등 (10개)
+- 문화: 한복, 설날, 추석, 경복궁, 제주도 등 (10개)
+- 역사: 조선, 고구려, 임진왜란, 광복절 등 (10개)
+- 과학: 삼성전자, 네이버, 카카오, 누리호 등 (5개)
+- 스포츠: 월드컵, 야구, e스포츠, 씨름-양궁 (5개)
 
 **파일 변경**
-- `src/components/GameGuide.jsx` - 신규 생성
-- `src/App.jsx` - HelpModal 제거, GameGuide 추가
-- `src/components/Header.jsx` - 도움말 버튼 제거
-- `src/index.css` - GameGuide 스타일 추가, 폰트 변수 정리
+- `scripts/generate-articles.py` - 형태소 분석 스크립트
+- `src/data/articles/*.json` - 50개 문서 JSON
+- `src/data/articleLoader.js` - 문서 로더
+- `src/hooks/useGame.js` - articleLoader 연동
+- `src/App.jsx` - 랜덤 문서 로직 업데이트
 
 ---
 
-### 2025-12-17: 디자인 가이드 v2.0 적용
+### 2025-12-17: UI 수정 및 디자인 가이드 적용
 
-#### 변경 사항
-
-**테마 적용**
-- Intellectual Noir & High Contrast 테마
-- 라이트/다크 모드 토글 기능
-
-**애니메이션**
-- 잉크 번짐(inkReveal) 효과 - 단어 공개 시
-- Command Bar 터미널 스타일 입력창
-
-**색상 토큰**
-- Paper/Noir 배경
-- Crimson/Amber/Azure 하이라이트
+- 게임방법 상단 고정 표시 (팝업 → 고정)
+- Pretendard 폰트 통일
+- Intellectual Noir 테마 적용
+- 라이트/다크 모드 토글
 
 ---
 
 ### 2025-12-17: MVP 개발 완료
 
-#### 완료된 작업
-
-**핵심 게임 로직**
-- 형태소 분석 기반 마스킹 및 매칭 시스템
-- Cold/Warm/Hot 피드백 연출
-- 로컬 스토리지 기반 통계 관리
-
-**UI/UX 컴포넌트**
-- Header, GameBoard, InputBar, ResultScreen, StatsModal
-
-**반응형 디자인**
-- 모바일 우선 / PC 3컬럼 레이아웃
-- 광고 슬롯 배치
+- Vite + React 프로젝트 설정
+- 마스킹 시스템, Cold/Warm/Hot 피드백
+- 통계 시스템 (LocalStorage)
+- 반응형 디자인
 
 ---
 
 ## 🧪 테스트 결과
 
-| 테스트 항목 | 결과 |
-|-------------|------|
-| 게임 가이드 상단 표시 | ✅ |
-| Pretendard 폰트 적용 | ✅ |
-| 라이트/다크 모드 | ✅ |
+| 항목 | 결과 |
+|------|------|
+| 50개 문서 로딩 | ✅ |
+| 오늘의 문서 (날짜 시드) | ✅ |
+| 형태소 분석 정확도 | ✅ |
 | Cold/Warm/Hot 피드백 | ✅ |
-| 잉크 번짐 효과 | ✅ |
 
 ---
 
 ## 📋 향후 계획
 
-- [ ] 서버 사이드 형태소 분석 API
-- [ ] 일일 퀴즈 시스템
-- [ ] 소셜 공유 기능 강화
-- [ ] 광고 SDK 연동
+- [ ] 배포 (Vercel)
+- [ ] 광고 연동 (AdSense)
+- [ ] 소셜 공유 기능

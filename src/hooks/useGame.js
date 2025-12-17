@@ -16,7 +16,7 @@ import {
     clearGameState,
     markPlayedToday
 } from '../utils/storage';
-import { getTodayArticle } from '../data/sampleArticles';
+import { getDailyArticle, getArticleById, formatArticleForGame } from '../data/articleLoader';
 
 /**
  * 게임 상태 관리 커스텀 훅
@@ -55,7 +55,7 @@ export function useGame() {
 
     // 게임 초기화
     const initGame = useCallback((articleData = null) => {
-        const gameArticle = articleData || getTodayArticle();
+        const gameArticle = articleData || formatArticleForGame(getDailyArticle());
         setArticle(gameArticle);
         setRevealedWords(new Set());
         setNewWord(null);
@@ -73,8 +73,8 @@ export function useGame() {
         const savedState = loadGameState();
         if (savedState && savedState.articleId) {
             // 저장된 상태가 있으면 복원
-            const savedArticle = getTodayArticle(); // 오늘의 기사
-            if (savedArticle.id === savedState.articleId) {
+            const savedArticle = formatArticleForGame(getArticleById(savedState.articleId));
+            if (savedArticle) {
                 setArticle(savedArticle);
                 setRevealedWords(new Set(savedState.revealedWords || []));
                 setGuessCount(savedState.guessCount || 0);
