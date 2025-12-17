@@ -1,0 +1,20 @@
+{
+  "name": "hiddenpage",
+  "private": true,
+  "version": "1.0.0",
+  "description": "히든페이지 - 나무위키 단어 추측 게임",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3"
+  }
+}
