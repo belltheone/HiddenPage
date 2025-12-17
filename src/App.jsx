@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useGame } from './hooks/useGame';
 import Header from './components/Header';
 import GameGuide from './components/GameGuide';
+import DailyStatus from './components/DailyStatus';
 import GameBoard from './components/GameBoard';
 import InputBar from './components/InputBar';
 import ResultScreen from './components/ResultScreen';
@@ -58,6 +59,9 @@ function App() {
                 <div className="game-area">
                     {/* 게임 가이드 (상단 고정) */}
                     <GameGuide />
+
+                    {/* 일일 퀴즈 완료 상태 */}
+                    <DailyStatus isComplete={isComplete} />
 
                     <GameBoard
                         article={article}
