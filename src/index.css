@@ -30,9 +30,8 @@
   --highlight-cold: #007AFF;
   --highlight-selection: #B4D5FE;
 
-  /* 폰트 */
-  --font-serif: 'RIDIBatang', 'Merriweather', serif;
-  --font-sans: 'Pretendard Variable', 'Pretendard', sans-serif;
+  /* 폰트 - Pretendard 통일 */
+  --font-main: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'D2Coding', 'JetBrains Mono', monospace;
 
   /* 현재 테마 색상 */
@@ -65,7 +64,8 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-main);
+  background: var(--current-bg);
   background: var(--current-bg);
   color: var(--current-fg);
   line-height: 1.6;
@@ -133,7 +133,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: var(--font-serif);
+  font-family: var(--font-main);
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--current-fg);
@@ -209,7 +209,7 @@ body {
 .ad-slot::before {
   content: 'SPONSORED';
   font-size: 0.625rem;
-  font-family: var(--font-sans);
+  font-family: var(--font-main);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
@@ -256,7 +256,7 @@ body {
 
 .game-category {
   display: inline-block;
-  font-family: var(--font-sans);
+  font-family: var(--font-main);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -307,12 +307,12 @@ body {
    문서 본문 - Serif Typography
    ======================================== */
 .game-content {
-  font-family: var(--font-serif);
+  font-family: var(--font-main);
   font-size: 17px;
   line-height: 1.8;
   text-align: justify;
   word-break: keep-all;
-  max-height: 60vh;
+  max-height: 50vh;
   overflow-y: auto;
   padding: 1.5rem 0;
 }
@@ -450,7 +450,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 0.875rem 1.5rem;
-  font-family: var(--font-sans);
+  font-family: var(--font-main);
   font-weight: 600;
   cursor: pointer;
   transition: opacity 0.2s ease, transform 0.1s ease;
@@ -512,7 +512,7 @@ body {
 .feedback-message {
   text-align: center;
   margin-top: 0.5rem;
-  font-family: var(--font-sans);
+  font-family: var(--font-main);
   font-size: 0.875rem;
   font-weight: 500;
 }
@@ -610,7 +610,7 @@ body {
 }
 
 .result-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-main);
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
@@ -643,7 +643,7 @@ body {
 }
 
 .stat-label {
-  font-family: var(--font-sans);
+  font-family: var(--font-main);
   font-size: 0.75rem;
   color: rgba(26, 26, 26, 0.5);
   margin-top: 0.25rem;
@@ -663,7 +663,7 @@ body {
 
 .result-btn {
   padding: 1rem;
-  font-family: var(--font-sans);
+  font-family: var(--font-main);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -717,7 +717,7 @@ body {
 }
 
 .stats-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-main);
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -736,7 +736,7 @@ body {
   padding: 1rem;
   background: transparent;
   border: 1px solid rgba(26, 26, 26, 0.2);
-  font-family: var(--font-sans);
+  font-family: var(--font-main);
   font-weight: 500;
   color: var(--current-fg);
   cursor: pointer;
@@ -744,6 +744,91 @@ body {
 
 .dark .stats-close {
   border-color: rgba(224, 224, 224, 0.2);
+}
+
+/* ========================================
+   게임 가이드 (상단 고정)
+   ======================================== */
+.game-guide {
+  background: rgba(26, 26, 26, 0.03);
+  border: 1px solid rgba(26, 26, 26, 0.1);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.dark .game-guide {
+  background: rgba(224, 224, 224, 0.03);
+  border-color: rgba(224, 224, 224, 0.1);
+}
+
+.guide-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--current-fg);
+  margin-bottom: 0.75rem;
+}
+
+.guide-icon {
+  font-size: 1.25rem;
+}
+
+.guide-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.guide-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--current-fg);
+}
+
+.guide-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--current-fg);
+  color: var(--current-bg);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.guide-feedback {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(26, 26, 26, 0.1);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.dark .guide-feedback {
+  border-top-color: rgba(224, 224, 224, 0.1);
+}
+
+.guide-feedback .feedback-cold {
+  color: var(--highlight-cold);
+}
+
+.guide-feedback .feedback-warm {
+  color: var(--highlight-warm);
+}
+
+.guide-feedback .feedback-hot {
+  color: var(--highlight-hot);
 }
 
 /* ========================================

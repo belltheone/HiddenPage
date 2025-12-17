@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useGame } from './hooks/useGame';
 import Header from './components/Header';
+import GameGuide from './components/GameGuide';
 import GameBoard from './components/GameBoard';
 import InputBar from './components/InputBar';
 import ResultScreen from './components/ResultScreen';
 import StatsModal from './components/StatsModal';
-import HelpModal from './components/HelpModal';
 import { getRandomArticle } from './data/sampleArticles';
 
 /**
@@ -14,7 +14,6 @@ import { getRandomArticle } from './data/sampleArticles';
 function App() {
     // 모달 상태
     const [showStats, setShowStats] = useState(false);
-    const [showHelp, setShowHelp] = useState(true); // 첫 방문 시 도움말 표시
 
     // 게임 훅
     const {
@@ -44,7 +43,6 @@ function App() {
             {/* 헤더 */}
             <Header
                 onShowStats={() => setShowStats(true)}
-                onShowHelp={() => setShowHelp(true)}
             />
 
             {/* 메인 레이아웃 (PC: 3컬럼) */}
@@ -58,6 +56,9 @@ function App() {
 
                 {/* 게임 영역 */}
                 <div className="game-area">
+                    {/* 게임 가이드 (상단 고정) */}
+                    <GameGuide />
+
                     <GameBoard
                         article={article}
                         displayTokens={displayTokens}
@@ -101,15 +102,9 @@ function App() {
                     onClose={() => setShowStats(false)}
                 />
             )}
-
-            {/* 도움말 모달 */}
-            {showHelp && (
-                <HelpModal
-                    onClose={() => setShowHelp(false)}
-                />
-            )}
         </div>
     );
 }
 
 export default App;
+
